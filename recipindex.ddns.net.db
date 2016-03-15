@@ -1,0 +1,10 @@
+@ IN SOA recipindex.ddns.net. hostmaster.recipindex.ddns.net. (
+	112415001	; Serial Number
+	3600		; 1 hour refresh
+	300		; 5 minuste retry
+	172800		; 2 days expiry
+	43200 )		; 12 hours minimum
+
+IN NS recipindex.ddns.net
+
+recipindex.ddns.net.	In A 192.168.200.141	;

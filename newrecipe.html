@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Recipe Creation</title>
+	</head>
+	<body>
+		<h1>New Recipe Creation</h1>
+		<form method='post'>
+			Recipe Name: <input type='text' name='recipe' id='recipe' /><br />
+			Nationality: <input type='text' name='nationality' id='nationality' /> <br />
+			Difficulty: <input type='radio' name='difficulty' value='easy' />Easy <br />
+				<input type='radio' name='difficulty' value='medium' />Medium <br />
+				<input type='radio' name='difficulty' value='hard' />Hard <br />
+			Author: <input type='text' name='author' id='author' /> <br />
+			Ingredients:<br />
+				Please list separate ingredients on separate lines.<br />
+				<textarea name='ingredients' id='ingredients' /></textarea><br />
+			Steps: <br />
+				Please list separate steps on separate lines. <br />
+				<textarea name='steps' id='steps' /></textarea><br />
+			<input type='submit' value='Submit' />
+		</form>
+	</body>
+</html>

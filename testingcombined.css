@@ -1,0 +1,181 @@
+body {
+    background-color: 66ff66;
+}
+
+.tab {
+text-align: center;
+margin-left: auto;
+margin-right: right;
+}
+
+h1 { text-align: center; }
+
+.tab ul li {
+background-color: 00ccff;
+border-color: black;
+color: white;
+border-width: 1px;
+border-style: solid;
+padding: 0 30px;
+position: relative;
+left:20%;
+
+}
+
+.tab > a
+    {
+        display: none;
+    }
+    
+
+ 
+        .tab > ul > li
+        {
+            position:relative;
+            float: left;
+        }
+ 
+
+
+    .tab li ul
+    {
+        display: none;
+        position: absolute;
+        
+    }
+        .tab li:hover ul
+        {
+            display:block;
+            z-index:1;
+            list-style:none;
+            float:left;
+            
+            
+        }
+
+nav.tab ul li ul li
+{
+    width: 105%;
+    left: -70;
+    height: 50;
+    top: 0;
+    
+}
+
+
+.rotd
+{
+    margin-left:auto;
+    margin-right: auto;
+    width: 35%;
+    position:relative;
+    top:200;
+    left: 100;
+    border-style: solid;
+    border-color: black;
+    background-color:white;
+    
+}
+
+.rotd ul
+{
+    text-align:left;
+    list-style:none;
+}
+.rotd h3
+{text-align: center;}
+img
+{
+width: 250px;
+height: 250px;
+}
+
+a
+{
+text-decoration: none;
+color: white;
+}
+
+div {
+    background-color: silver;
+    width: 320px;
+    padding: 35px;
+    border: 25px solid yellow;
+    margin: 25px;
+    postition:absolute;
+
+}
+
+.preEntry{
+ background-color: silver;
+    width: 320px;
+    padding: 35px;
+    border: 25px solid yellow;
+    margin: 25px;
+    postition:absolute;
+
+}
+Body {               
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 30px 20px;
+    border: solid 6px black;
+    background-color: lavender;
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    }
+
+.Body .header {           
+    border: solid 1px black;
+    background-color: #00BFFF;
+    display: block;
+    position: absolute;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    width: 950px;
+    height: auto;
+    color: black;
+}
+
+.Body .postEntry {                   
+    float: left;
+    display: block;
+    background-color: blue;
+    border:  solid 6px black;
+    padding: 40px 20px 10px 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    }
+
+.entryImage {                       
+    float: right;
+    top: 10px;
+    height: 180px;
+    width: 144px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.postEntry p {                   
+    float: left;
+    display: block;
+    height: 100px;
+    text-align: justify;
+    width: auto;
+    padding: auto;
+}
+
+
+

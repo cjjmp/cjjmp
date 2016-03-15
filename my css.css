@@ -1,0 +1,62 @@
+.Body {               
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 30px 20px;
+    border: solid 6px black;
+    background-color: black;
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    }
+
+.Body .header {           
+    border: solid 1px black;
+    background-color: #00BFFF;
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    width: 950px;
+    height: auto;
+    color: black;
+}
+
+.Body .postEntry {                   
+    float: left;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    }
+
+.entryImage {                       
+    float: right;
+    top: 10px;
+    height: 180px;
+    width: 144px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.postEntry p {                   
+    float: left;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: auto;
+    padding: auto;
+}
+
+

@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Upload a Recipe</title>
+		<link rel = "stylesheet" type = "text/css" href = "index.css">
+		<script type="text/javascript">
+		function submitButton(event)
+		{
+		event.preventDefault();
+		}
+		
+		
+		</script>
+	</head>
+	<body>
+	
+	
+	        <h1><a href="index.html">Recipe: The Web Site</a></h1>
+
+		<nav class="tab">
+		<ul>
+		   <li><h2><a href="userprofile.html">Profile</a></h2></li>
+            <li><h2><a href="allRecipes.html">Browse All Recipes</a></h2>
+                <ul>
+                    <li><a href="asian.html">Asian Recipes</a></li>
+                    <li><a href="european.html">European Recipes</a></li>
+                    <li><a href="american.html">American Recipes</a></li>
+                    <li><a href="african.html">African Recipes</a></li>
+                    <li><a href="middleEastern.html">Middle Eastern Recipes</a></li>
+                </ul>
+            </li>
+			<li><h2><a href="uploadRecipe.html">Upload a Recipe</a></h2></li>
+			<li><h2><a href="randomRecipe.html">Random Recipe</h2></li>
+            <li><h2><a href="rotd.html">Recipe of the Day</a></h2></li>
+			<li><h2><a href="login.html">Login</a></h2></li>
+			<li><h2><a href="register.html">Register</a></h2></li>
+            <li><h2><a href="contact.html">Contact Us</a></h2></li>
+
+	</ul>
+</nav>
+
+<form>
+<center>
+<form align="left" 
+  <h3> Search</h3>
+    <input type="search" name="q" value="Search">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+</center>
+</form>
+	
+	<form id="registerform" onSubmit="submitButton(event)"><h3>Register</h3>
+        <br>
+	<div>Name:<label> 
+		 &#08  &#08  &#08   &#08  &#08  &#08 &#08  &#08  &#08  &#08  &#08   &#08 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="name" value="" placeholder="Enter your name.">
+		</label>
+		<span id="nameError" class="formError"></span>
+	</div>
+	<br>
+	<div>Email:<label> 
+		&#08 &#08 &#08 &#08 &#08  &#08  &#08 &#08 &#08 &#08  &#08 &#08 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="email" value="" placeholder="Enter your email address.">
+		</label
+		<span id="emailError" class="formError"></span>
+	</div>
+	<br>
+	<div>Username:<label> 
+		&nbsp; &nbsp; &#08 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="username" value="" placeholder="Enter a username">
+		</label>
+		<span id="usernameError" class="formError"></span>
+	</div>  
+	<br>
+	
+	<div>Password:<label> 
+		 &nbsp; &nbsp; &nbsp;&nbsp;&#08 &#08  &#08 &#08  &#08 &#08 &#08 &#08  &#08   <input type="password" name="password" value="" placeholder="Enter a password.">
+		</label>
+		<span id="passError" class="formError"></span>
+	</div>
+	<br>
+	<div>Confirm Password:<label> 
+		&#08  <input type="password" name="password" value="" placeholder="Re-enter password.">
+		</label>
+		<span id="passError" class="formError"></span>
+	</div>
+	<br> &nbsp; 
+         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<input type="Submit" value="Submit">
+	 &nbsp;<input type="Reset" value="Reset">
+   </form>
+
+    
+          <center> 
+<form align="center" action="http://google.com/search" method="get">
+  <h3> Google it </h3>
+    <input type="search" name="q" value="Google it">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+
+
+
+<br>
+<br>
+<center>CJJMP &copy; </center> 
+	
+	</body>
+</html>

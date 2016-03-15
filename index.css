@@ -1,0 +1,1009 @@
+Body {
+    background-color: #F6E3CE;
+    position: center;
+}
+
+Body2 {
+ position: center;
+}
+
+Body3 {
+  position: center;
+}
+
+#loginform, #registerform
+{
+ 
+text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: center;
+    float: justify;
+    display: block;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+
+background-color: skyblue;
+}
+
+.div1 {
+	width: 15%;
+	background-color: white;
+}
+
+
+#submitme
+{
+     
+text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: center;
+    float: justify;
+    display: block;
+    border:  solid 6px black;
+    padding:40px 20px 20px 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+border: 5px solid black;
+background-color: pink;
+}
+.tab {
+text-align: center;
+    overflow: hidden;
+    position: auto;
+    float: justify;
+    display: block;
+    margin-top: 10px;
+	padding: 5px 1px 5px 1px;
+    margin-bottom: 10px;
+	margin-left: 75px;
+	zoom: 110%;
+	width: 1800px;
+
+
+}
+
+.tab_Profile {
+text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: auto;
+    float: justify;
+    display: block;
+   padding: 5px 1px 5px 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+	zoom: 110%;
+
+
+}
+.tab_Asian {
+text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: auto;
+    float: justify;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	margin-left: 240px;
+	zoom: 110%;
+	width: 1600px;
+	padding: 5px 1px 5px 1px;
+
+
+}
+
+
+.tab_Contact {
+text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: auto;
+    float: justify;
+    display: block;
+    padding: 5px 1px 5px 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200%;
+	zoom: 110%;
+
+
+}
+
+
+
+
+h1 { text-align: relative; }
+
+.tab ul li {
+background-color: 00ccff;
+border-color: black;
+color: white;
+border-width: 3px;
+border-style: solid;
+position: left;
+float: left;
+
+
+
+
+}
+
+.tab_Asian ul li {
+background-color: 00ccff;
+border-color: black;
+color: white;
+border-width: 3px;
+border-style: solid;
+padding:  2px 0px 0px 2px;
+position: left;
+float: left;
+
+
+
+
+}
+
+
+.tab_Profile ul li {
+background-color: 00ccff;
+border-color: black;
+color: white;
+border-width: 3px;
+border-style: solid;
+padding:  2px 0px 0px 2px;
+position: left;
+float: left;
+
+
+
+
+}
+.tab_Contact ul li {
+background-color: 00ccff;
+border-color: black;
+color: white;
+border-width: 3px;
+border-style: solid;
+padding:  2px 0px 0px 2px;
+position: left;
+float: left;
+
+
+
+
+}
+.div1 {
+	background-color: white;
+	width: 50%;
+}
+
+.tab > a
+    {
+        display: block;
+		
+		
+    }
+    
+
+ 
+        .tab > ul > li
+        {
+				padding: 0px 15px 2px 10px;
+            position:auto;
+            float:  justify;
+	    text-align: justify;
+		background-color: lightgreen;
+		
+
+        }
+ 
+
+
+    .tab li ul
+    {
+        display: none;
+        position: relative;
+	float:  justify;
+	text-align: justify;
+	
+
+        
+    }
+        .tab li:hover ul
+        {
+            display:block;
+            z-index:3;
+            list-style:none;
+            float: justify;
+	position: relative;
+
+
+            
+            
+        }
+
+nav.tab ul li ul li
+{
+    width: 195%;
+    height: 50;
+    top: 0;
+position: left;
+float:  justify;
+align: justify;
+    
+}
+
+
+
+
+.tab_Asian > a
+    {
+        display: block;
+		
+		
+    }
+    
+
+ 
+        .tab_Asian > ul > li
+        {
+				padding: 0px 15px 2px 10px;
+            position:auto;
+            float:  justify;
+	    text-align: justify;
+		background-color: lightgreen;
+		
+
+        }
+ 
+
+
+    .tab_Asian li ul
+    {
+        display: none;
+        position: relative;
+	float:  justify;
+	text-align: justify;
+	
+
+        
+    }
+        .tab_Asian li:hover ul
+        {
+            display:block;
+            z-index:3;
+            list-style:none;
+            float: justify;
+	position: relative;
+
+
+            
+            
+        }
+
+nav.tab_Asian ul li ul li
+{
+    width: 195%;
+    left: -10;
+    height: 50;
+    top: 0;
+position: left;
+float:  justify;
+align: justify;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab_Profile > a
+    {
+        display: block;
+		
+		
+    }
+    
+
+ 
+        .tab_Profile> ul > li
+        {
+				padding: 0px 15px 2px 10px;
+            position:auto;
+            float:  justify;
+	    text-align: justify;
+		background-color: lightgreen;
+		
+
+        }
+ 
+
+
+    .tab_Profile li ul
+    {
+        display: none;
+        position: relative;
+	float:  justify;
+	text-align: justify;
+	
+
+        
+    }
+        .tab_Profile li:hover ul
+        {
+            display:block;
+            z-index:3;
+            list-style:none;
+            float: justify;
+	position: relative;
+
+
+            
+            
+        }
+
+nav.tab_Profile ul li ul li
+{
+    width: 195%;
+    left: -10;
+    height: 50;
+    top: 0;
+position: left;
+float:  justify;
+align: justify;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab_Contact > a
+    {
+        display: block;
+		
+		
+    }
+    
+
+ 
+        .tab_Contact > ul > li
+        {
+				padding: 0px 15px 2px 10px;
+            position:auto;
+            float:  justify;
+	    text-align: justify;
+		background-color: lightgreen;
+		
+
+        }
+ 
+
+
+    .tab_Contact li ul
+    {
+        display: none;
+        position: relative;
+	float:  justify;
+	text-align: justify;
+	
+
+        
+    }
+        .tab_Contact li:hover ul
+        {
+            display:block;
+            z-index:3;
+            list-style:none;
+            float: justify;
+	position: relative;
+
+
+            
+            
+        }
+
+nav.tab_Contact ul li ul li
+{
+    width: 195%;
+    left: -10;
+    height: 50;
+    top: 0;
+position: left;
+float:  justify;
+align: justify;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.tab2 {
+text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    display: block;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+
+
+}
+
+
+h1 { text-align: center; }
+
+.tab2 ul li {
+background-color: 00ccff;
+border-color: black;
+color: white;
+border-width: 10px;
+border-style: solid;
+padding:  5px;
+position: relative;
+float: left;
+
+
+
+
+}
+
+
+.tab2 > a
+    {
+        display: none;
+    }
+    
+
+ 
+        .tab2 > ul > li
+        {
+            position:relative;
+            float: left;
+
+        }
+ 
+
+
+    .tab2 li ul
+    {
+        display: none;
+        position: relative;
+	float: left;
+
+        
+    }
+        .tab2 li:hover ul
+        {
+            display:block;
+            z-index:1;
+            list-style:none;
+            float:left;
+	position: relative;
+
+
+            
+            
+        }
+
+nav.tab2 ul li ul li
+{
+    width: 155%;
+    left: -70;
+    height: 50;
+    top: 10;
+position: center;
+float: left;
+    
+}
+
+.rotd
+{
+   text-align: center;
+    height: auto;
+    overflow: hidden;
+    position: center;
+    float: justify;
+    display: block;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border-style: solid;
+    border-color: black;
+    background-color:white;
+    
+}
+form h3
+{
+text-align: center;
+position: relative;
+float: justify;
+}
+.rotd ul
+{
+    text-align:left;
+    list-style:none;
+	position: relative;
+float: justify;
+}
+.rotd h3
+{text-align: center;}
+img
+{
+width: 250px;
+height: 250px;
+}
+
+a
+{
+text-decoration: none;
+color: white;
+}
+
+
+.recipename
+{
+    align: right;
+    background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   position: relative;
+ 
+ 
+}
+
+.recipenames
+{
+    align: right;
+    background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   position: relative;
+ 
+ 
+}
+
+.recipetype
+{
+ background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+   position: relative;
+ 
+ 
+}
+
+.recipetypeAsian
+{
+  
+    background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+   position: relative;
+ 
+ 
+}
+
+.recipetypeAmerican
+{
+  
+  background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+   position: relative;
+ 
+ 
+}
+
+.recipetypeEuropean
+{
+  
+ background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+   position: relative;
+ 
+ 
+}
+
+.recipetypeAfrican
+{
+  
+ background-color:white;
+    display: block;
+    border:  solid 6px black;
+    padding: 5px 10px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+   position: relative;
+ 
+ 
+}
+
+.BodyIndex {               
+   
+    width: 1375px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    }
+
+
+.BodyIndex .postEntryIndex {   
+                  
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    position: -100%;
+    }
+
+ .postEntryIndex {    
+                 
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+.postEntryIndex p {               
+    float: right;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: 15%;
+    padding: auto;
+}
+    }
+
+
+.Body {               
+     zoom: 80%;
+    width: 1375px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    }
+
+
+.Body .postEntry {   
+                  
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 20px; 40px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    position: -100%;
+    }
+
+ .postEntry {    
+                 
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+.postEntry p {               
+    float: right;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: 15%;
+    padding: auto;
+}
+    }
+
+
+
+.BodyAsian {               
+   
+    width: 1375px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    }
+
+
+.BodyAsian .postEntryAsian {   
+                  
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    position: -100%;
+    }
+
+ .postEntryAsian {    
+                 
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+.postEntryAsian p {               
+    float: right;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: 15%;
+    padding: auto;
+}
+    }
+
+
+
+
+.BodyAmerican {               
+   
+    width: 1030px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    }
+
+
+.BodyAmerican .postEntryAmerican {   
+                  
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    position: -200%;
+    }
+
+ .postEntryAmerican {    
+                 
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+.postEntryAmerican p {               
+    float: right;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: 15%;
+    padding: auto;
+}
+    }
+
+
+
+
+.BodyEuropean {               
+   
+   width: 1350px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    }
+
+
+.BodyEuropean .postEntryEuropean {   
+                  
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    position: -100%;
+    }
+
+ .postEntryEuropean {    
+                 
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+.postEntryEuropean p {               
+    float: right;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: 15%;
+    padding: auto;
+}
+    }
+
+
+.BodyAfrican {               
+   
+    width: 1350px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: justify;
+    }
+
+
+.BodyAfrican .postEntryAfrican {   
+                  
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    position: -100%;
+    }
+
+ .postEntryAfrican {    
+                 
+    float: right;
+    display: block;
+    background-color: lightblue;
+    border:  solid 6px black;
+    padding: 10px 20px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+.postEntryAfrican p {               
+    float: right;
+    display: block;
+    height: auto;
+    text-align: justify;
+    width: 15%;
+    padding: auto;
+}
+    }
+
+
